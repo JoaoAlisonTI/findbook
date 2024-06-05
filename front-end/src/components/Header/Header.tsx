@@ -1,6 +1,7 @@
 import backgroundImage from '../../assets/images/background-header.png';
 import { HeaderTitle } from '../HeaderTitle/HeaderTitle'
 import { Container } from '../Container/Container'
+import { Button } from '../Button/Button'
 
 export function Header() {
   return (
@@ -17,6 +18,7 @@ export function Header() {
               Encontre livros <br /> que seja a sua cara!
           </p>
           <p className="text-gray-500 my-5 text-xl">Lorem ipsum</p>
+          <Button title="Pesquisar livros" />
         </div>
       </Container>
     </header>
