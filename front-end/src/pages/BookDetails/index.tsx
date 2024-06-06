@@ -12,7 +12,7 @@ export function BookDetails() {
       <HeaderTitle />
       <div className=" gap-4 grid md:grid-cols-2 mt-16 grid-cols-1">
         <div>
-          <h2 className="text-5xl font-bold text-evergreen ">Nome do livrop</h2>
+          <h2 className="text-5xl font-bold text-evergreen ">Nome do livro</h2>
           <p className="text-xl text-gray-500 font-light py-4">Autor</p>
           <p className="text-gray-500 mt-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
@@ -41,10 +41,10 @@ export function BookDetails() {
       <div>
         <Title title="Recomendações com base nesse livro" className="my-6" />
         <div className="grid md:grid-cols-3 grid-cols-1 gap-5 ">
-          <Card id="123" />
-          <Card id="123" />
-          <Card id="123" />
-          <Card id="123" />
+          <Card id="124" />
+          <Card id="125" />
+          <Card id="126" />
+          <Card id="127" />
         </div>
       </div>
     </Container>

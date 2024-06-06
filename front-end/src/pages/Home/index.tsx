@@ -33,7 +33,7 @@ export function Home() {
       <Header />
       <Container>
         <Title title="O que você quer ler hoje?" />
-        <div className="gap-8 grid md:grid-cols-8 my-6 grid-cols-4">
+        <div className="flex flex-wrap gap-6 my-6">
           {genderBooks.map((book, index) => (
             <Button
               key={index}
